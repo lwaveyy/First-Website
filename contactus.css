@@ -1,0 +1,42 @@
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .item{
+    width:20px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:center;
+  }
+  
+  #index-gallery{
+    width:20px;
+  }
+
+.item2{
+    width: 20px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:center;
+  }
+  
+  #index-gallery{
+    width:20px;
+  }
